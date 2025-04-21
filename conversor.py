@@ -11,23 +11,24 @@ while True:
  print("3. Yuan")
  print("4. Sair")
 
- valor = float(input("Escolha o valor para conversão em reais (R$): "))
- escolha = input("Escolha uma opção para conversão: ")
+ value_str = input("Escolha o valor para conversão em reais (R$): ")
+ value = float(value_str.replace(",", "."))
+ option = input("Escolha uma opção para conversão: ")
  
 
- if escolha == "1":
-  conversor = valor / dolar
-  print(f"R$ {valor:.2f} = US$ {conversor:.2f}")
+ if option == "1":
+  converter = value / dolar
+  print(f"R$ {value:.2f} = US$ {converter:.2f}")
 
- elif escolha == "2":
-  conversor = valor / euro
-  print(f"R$ {valor:.2f} = US$ {conversor:.2f}")
+ elif option == "2":
+  converter = value / euro
+  print(f"R$ {value:.2f} = US$ {converter:.2f}")
 
- elif escolha == "3":
-  conversor = valor / yuan
-  print(f"R$ {valor:.2f} = US$ {conversor:.2f}")
+ elif option == "3":
+  converter = value / yuan
+  print(f"R$ {value:.2f} = US$ {converter:.2f}")
 
- elif escolha == "4":
+ elif option == "4":
   break
  
  else:
