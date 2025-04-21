@@ -25,4 +25,4 @@ Este é um projeto simples de **conversor de moedas** desenvolvido em Python, id
 1. Certifica-te de ter o Python instalado.
 2. Clona este repositório:
 ```bash
-git clone https://github.com/teu-usuario/conversor-moedas.git
+git clone https://github.com/LeonelSalgueiro/Conversor-de-Moedas
